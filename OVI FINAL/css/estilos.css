@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+header, nav, section, article, aside, figure, footer{
+	display:block;
+}
+.limpiar{
+	clear:both;
+}
+a img{
+	border:none;
+}
+body{
+	background: #FDFDFE;
+	margin:30px;
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	margin:6px;
+}
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#333;
+	margin:6px;
+	
+}
+#contenedor{
+	width: 950px;
+	margin: 0 auto;
+	background: #FFF;
+	padding: 25px;
+	
+}
+
+/*cabecera*/
+	#cabecera{
+		height: 84px;
+	}
+	#logo{
+		width: 351px;
+		height: 84px;
+		float:left;
+	}
+	#cabecera ul{
+		width: 120px;
+		height: 84px;
+		display: block;
+		float: right;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		
+}
+
+#cabecera ul li{
+	float: right;
+}
+#cabecera li a{
+	width: 45px;
+	height: 45px;
+	display: block;
+	float: right;
+	margin-left: 10px;
+	
+}
+
+#menu{
+	height:45px;
+	border-bottom: 4px solid #F86726;
+	
+}	
+
+#menu ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	width: 474px;
+	height: 40px;
+	display: block;
+	background: #F86726;
+	float: right;
+	padding-top: 5px;
+}
+#menu li{
+	float:left
+}
+#menu li a{
+	line-height: 40px;
+	display:block;
+	padding:0 25px;
+	border-right: 4px solid #FFF;
+	font-family: arial,helvetica, sans-serif;
+	font-size: 15px;
+	color:#fff;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+#menu li a:hover{
+	color:#000;
+}
+
+
+
+/******************************************/
+/***    DISEÑO PARA TABLETAS           ****/
+/******************************************/
+@media only screen and (max-width:768px){
+	body{
+	
+	margin:15px;
+}
+	#contenedor{
+		  width: 96%;
+		padding: 2%;
+	}
+
+}
+
+/******************************************/
+/***    cuerpo pagina      ****/
+/******************************************/
+
+
+.titulopagina{
+	display:block;
+	font-size:30px;
+	color:#6d6d6d;
+}
+
+.cajas{
+	border-bottom: 5px #CB373A;
+	padding:10px  0;
+	
+}
+.cajas1{
+	border-bottom: 5px solid #FF2FF04;
+	padding:10px  0;
+	
+}
+#contador{
+	float: right;
+}
+
+
+#cajadepresentacion{
+	width: 490px;
+	float: left;
+}
+#cajadepresentacion2{
+	width: 890px;
+	float: left;
+}
+	#cajadepresentacion1{
+	width: 470px;
+	float: right;
+}
+#cajadepresentacion h1{
+	font-size: #FF3005;
+	font-weight: normal;
+}
+#banner{
+	width: 440px;
+	float:right;
+}
+#banner1{
+	width: 440px;
+	float:left;
+}
+
+
+/******************************************/
+/***    personajes importantes      ****/
+/******************************************/
+
+
+
+
+
+.caja-proyectos{
+	width: 200px;
+	float: left;
+	border-top: 1px solid #FF2F04;
+	padding-top: 16px;
+	margin-right: 50px;
+}
+	.caja-proyectos1{
+	width: 400px;
+	float: left;
+	border-top: 1px solid #FF2F04;
+	padding-top: 16px;
+	margin-right: 70px;
+	
+}
+
+.caja-proyectos h2{
+	font-family: arial,helvica, sans-serif;
+	font-size:14px;
+	color:#464646;
+	margin:6px;	
+}
+.caja-proyectos a{
+	color:#848484;
+	text-decoration: none;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
